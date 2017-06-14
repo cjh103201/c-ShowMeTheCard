@@ -148,6 +148,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -157,79 +158,6 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\css\animate.min.css" />
-    <Content Include="Content\css\bootstrap.min.css" />
-    <Content Include="Content\css\flexslider.css" />
-    <Content Include="Content\css\flickity.min.css" />
-    <Content Include="Content\css\fonts\Stroke-Gap-Icons.svg" />
-    <Content Include="Content\css\ie.css" />
-    <Content Include="Content\css\normalize.min.css" />
-    <Content Include="Content\css\print.css" />
-    <Content Include="Content\css\screen.css" />
-    <Content Include="Content\css\styles.css" />
-    <Content Include="Content\img\article-01.jpg" />
-    <Content Include="Content\img\article-02.jpg" />
-    <Content Include="Content\img\article-03.jpg" />
-    <Content Include="Content\img\article-04.jpg" />
-    <Content Include="Content\img\article-05.jpg" />
-    <Content Include="Content\img\article-06.jpg" />
-    <Content Include="Content\img\crew-blaz-robar.jpg" />
-    <Content Include="Content\img\crew-dude.jpg" />
-    <Content Include="Content\img\crew-mary-lou.jpg" />
-    <Content Include="Content\img\crew-peter-finlan.jpg" />
-    <Content Include="Content\img\dd-arrow.png" />
-    <Content Include="Content\img\favicon\android-chrome-144x144.png" />
-    <Content Include="Content\img\favicon\android-chrome-192x192.png" />
-    <Content Include="Content\img\favicon\android-chrome-36x36.png" />
-    <Content Include="Content\img\favicon\android-chrome-48x48.png" />
-    <Content Include="Content\img\favicon\android-chrome-72x72.png" />
-    <Content Include="Content\img\favicon\android-chrome-96x96.png" />
-    <Content Include="Content\img\favicon\apple-touch-icon-114x114.png" />
-    <Content Include="Content\img\favicon\apple-touch-icon-120x120.png" />
-    <Content Include="Content\img\favicon\apple-touch-icon-144x144.png" />
-    <Content Include="Content\img\favicon\apple-touch-icon-152x152.png" />
-    <Content Include="Content\img\favicon\apple-touch-icon-180x180.png" />
-    <Content Include="Content\img\favicon\apple-touch-icon-57x57.png" />
-    <Content Include="Content\img\favicon\apple-touch-icon-60x60.png" />
-    <Content Include="Content\img\favicon\apple-touch-icon-72x72.png" />
-    <Content Include="Content\img\favicon\apple-touch-icon-76x76.png" />
-    <Content Include="Content\img\favicon\apple-touch-icon-precomposed.png" />
-    <Content Include="Content\img\favicon\apple-touch-icon.png" />
-    <Content Include="Content\img\favicon\browserconfig.xml" />
-    <Content Include="Content\img\favicon\favicon-16x16.png" />
-    <Content Include="Content\img\favicon\favicon-194x194.png" />
-    <Content Include="Content\img\favicon\favicon-32x32.png" />
-    <Content Include="Content\img\favicon\favicon-96x96.png" />
-    <Content Include="Content\img\favicon\favicon.ico" />
-    <Content Include="Content\img\favicon\mstile-144x144.png" />
-    <Content Include="Content\img\favicon\mstile-150x150.png" />
-    <Content Include="Content\img\favicon\mstile-310x150.png" />
-    <Content Include="Content\img\favicon\mstile-310x310.png" />
-    <Content Include="Content\img\favicon\mstile-70x70.png" />
-    <Content Include="Content\img\favicon\safari-pinned-tab.svg" />
-    <Content Include="Content\img\freebie-03.jpg" />
-    <Content Include="Content\img\freebie-04.jpg" />
-    <Content Include="Content\img\hero-bg-01.jpg" />
-    <Content Include="Content\img\hero-bg-02.jpg" />
-    <Content Include="Content\img\hero-bg-03.jpg" />
-    <Content Include="Content\img\landio-freebie.jpg" />
-    <Content Include="Content\img\sedna-freebie.jpg" />
-    <Content Include="Content\img\stats-bg.jpg" />
-    <Content Include="Content\img\synthetica-logo%402x.png" />
-    <Content Include="Content\img\synthetica-logo.png" />
-    <Content Include="Content\img\texture-shapes-bg.png" />
-    <Content Include="Content\img\video-cover.jpg" />
-    <Content Include="Content\js\min\bootstrap.min.js" />
-    <Content Include="Content\js\min\flickity.pkgd.min.js" />
-    <Content Include="Content\js\min\jquery-1.11.2.min.js" />
-    <Content Include="Content\js\min\jquery.flexslider-min.js" />
-    <Content Include="Content\js\min\jquery.waypoints.min.js" />
-    <Content Include="Content\js\min\modernizr-2.8.3-respond-1.4.2.min.js" />
-    <Content Include="Content\js\min\retina.min.js" />
-    <Content Include="Content\js\min\scripts-min.js" />
-    <Content Include="Content\js\min\toucheffects-min.js" />
-    <Content Include="Content\js\min\video-min.js" />
-    <Content Include="Content\js\scripts.js" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -239,26 +167,6 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Content\img\.DS_Store" />
-    <Content Include="Content\img\favicon\manifest.json" />
-    <Content Include="Content\js\.DS_Store" />
-    <Content Include="Content\js\min\.DS_Store" />
-    <Content Include="Content\scss\.DS_Store" />
-    <Content Include="Content\scss\.sass-cache\a98e557b9da12e475a70ffaba41c5ccd5a2449c7\styles.scssc" />
-    <Content Include="Content\scss\ie.scss" />
-    <Content Include="Content\scss\partials\_buttons.scss" />
-    <Content Include="Content\scss\partials\_colors.scss" />
-    <Content Include="Content\scss\partials\_layout.scss" />
-    <Content Include="Content\scss\partials\_typography.scss" />
-    <Content Include="Content\scss\partials\_video_skin.scss" />
-    <Content Include="Content\scss\print.scss" />
-    <Content Include="Content\scss\screen.scss" />
-    <Content Include="Content\scss\styles.scss" />
-    <Content Include="Content\css\.DS_Store" />
-    <Content Include="Content\css\fonts\.DS_Store" />
-    <Content Include="Content\css\fonts\Stroke-Gap-Icons.eot" />
-    <Content Include="Content\css\fonts\Stroke-Gap-Icons.ttf" />
-    <Content Include="Content\css\fonts\Stroke-Gap-Icons.woff" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -288,7 +196,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\assets\" />
+    <Folder Include="Content\images\" />
+    <Folder Include="Content\js\" />
+    <Folder Include="Content\level\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Account\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
