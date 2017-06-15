@@ -180,3 +180,9 @@ C:\Users\iir_cilbyi\Desktop\aspShowMeTheCard\showmethecard\showmethecard\bin\ko\
 C:\Users\iir_cilbyi\Desktop\aspShowMeTheCard\showmethecard\showmethecard\obj\Debug\showmethecard.csprojResolveAssemblyReference.cache
 C:\Users\iir_cilbyi\Desktop\aspShowMeTheCard\showmethecard\showmethecard\obj\Debug\showmethecard.dll
 C:\Users\iir_cilbyi\Desktop\aspShowMeTheCard\showmethecard\showmethecard\obj\Debug\showmethecard.pdb
+C:\Users\d\Desktop\gitVS\showmethecard\showmethecard\bin\MySql.Data.xml
+C:\Users\d\Desktop\gitVS\showmethecard\showmethecard\bin\MySql.Data.dll
+C:\Users\d\Desktop\gitVS\showmethecard\showmethecard\bin\EntityFramework.dll
+C:\Users\d\Desktop\gitVS\showmethecard\showmethecard\bin\EntityFramework.SqlServer.dll
+C:\Users\d\Desktop\gitVS\showmethecard\showmethecard\bin\EntityFramework.xml
+C:\Users\d\Desktop\gitVS\showmethecard\showmethecard\bin\EntityFramework.SqlServer.xml
